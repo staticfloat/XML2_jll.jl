@@ -1,0 +1,97 @@
+name = "XML2"
+version = "2.13.2"
+julia_compat = "1.6"
+platform_augmentation_code = ""
+
+[[builds]]
+name = "XML2"
+platform = "x86_64-linux-gnu"
+deps = []
+lazy = "false"
+src_version = "2.13.1"
+
+    [[builds.licenses]]
+    license_text = "Except where otherwise noted in the source code (e.g. the files dict.c and\nlist.c, which are covered by a similar licence but with different Copyright\nnotices) all the files are:\n\n Copyright (C) 1998-2012 Daniel Veillard.  All Rights Reserved.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is fur-\nnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FIT-\nNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.\n"
+    filename = "Copyright"
+    license_type = "MIT"
+
+    [builds.callback_defs]
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:d85a6fe26ed5f0fb7dd5df45aec1219db360f213"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:27f44f7d06ea78d88f70f405d89475c3292ef720b0a193261a9711d256828ef3"
+        url = "https://github.com/staticfloat/XML2_jll.jl/releases/download/v2.13.2-ClangBootstrap/XML2-build_log-v2.13.2-x86_64-linux-gnu.tar.gz"
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:48b8f0e21573ed09e92418318926822713cdc993"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:edb7073966e20e5c0b512ac4c3601516259f5465dc5a70e1e79a2109fb8560cf"
+        url = "https://github.com/staticfloat/XML2_jll.jl/releases/download/v2.13.2-ClangBootstrap/XML2-extract_log-v2.13.2-x86_64-linux-gnu.tar.gz"
+
+    [[builds.products]]
+    deps = []
+    name = "libxml2"
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    soname = "libxml2.so.2"
+    type = "library"
+    path = "lib/libxml2.so.2.13.1"
+
+    [[builds.sources]]
+    treehash = "sha1:11c87bfd65f768bbd19a8505504c14a6a0e0cfbc"
+    url = "https://download.gnome.org/sources/libxml2/2.13/libxml2-2.13.1.tar.xz"
+
+    [builds.artifact]
+    treehash = "sha1:01f46742f6c911ae380ae1e52be68ae9e4aefab2"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:84def34f6b079cb7ec89e60835571af1fa69955e01a563fc3bc5249ef967e325"
+        url = "https://github.com/staticfloat/XML2_jll.jl/releases/download/v2.13.2-ClangBootstrap/XML2-v2.13.2-x86_64-linux-gnu.tar.gz"
+[[builds]]
+name = "XML2"
+platform = "aarch64-linux-gnu"
+deps = []
+lazy = "false"
+src_version = "2.13.1"
+
+    [[builds.licenses]]
+    license_text = "Except where otherwise noted in the source code (e.g. the files dict.c and\nlist.c, which are covered by a similar licence but with different Copyright\nnotices) all the files are:\n\n Copyright (C) 1998-2012 Daniel Veillard.  All Rights Reserved.\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is fur-\nnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FIT-\nNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.\n"
+    filename = "Copyright"
+    license_type = "MIT"
+
+    [builds.callback_defs]
+
+    [builds.auxilliary_artifacts.build_log]
+    treehash = "sha1:98d4a849a606d01abe6340325009da0d769b7b95"
+
+        [[builds.auxilliary_artifacts.build_log.download_sources]]
+        tarball_hash = "sha256:a91f3cf0ab6de7f89b53944cb22bb04cb111230044e2b860d66439ee47200923"
+        url = "https://github.com/staticfloat/XML2_jll.jl/releases/download/v2.13.2-ClangBootstrap/XML2-build_log-v2.13.2-aarch64-linux-gnu.tar.gz"
+
+    [builds.auxilliary_artifacts.extract_log]
+    treehash = "sha1:8fee0e5ad49c0198c5bcb4346a8f72f6735b4fc1"
+
+        [[builds.auxilliary_artifacts.extract_log.download_sources]]
+        tarball_hash = "sha256:bf7bfee674a2708f395c99253a0932017c80028ed3e22ad6a96b2aa6f388ba59"
+        url = "https://github.com/staticfloat/XML2_jll.jl/releases/download/v2.13.2-ClangBootstrap/XML2-extract_log-v2.13.2-aarch64-linux-gnu.tar.gz"
+
+    [[builds.products]]
+    deps = []
+    name = "libxml2"
+    flags = ["RTLD_DEEPBIND", "RTLD_LAZY"]
+    soname = "libxml2.so.2"
+    type = "library"
+    path = "lib/libxml2.so.2.13.1"
+
+    [[builds.sources]]
+    treehash = "sha1:11c87bfd65f768bbd19a8505504c14a6a0e0cfbc"
+    url = "https://download.gnome.org/sources/libxml2/2.13/libxml2-2.13.1.tar.xz"
+
+    [builds.artifact]
+    treehash = "sha1:a04b4572aa8837d8ea7f403839808236e1107edf"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:9f651ee6ada18fc3bc1367c4d51a1986298149a0256947d314d6f1cda4163b59"
+        url = "https://github.com/staticfloat/XML2_jll.jl/releases/download/v2.13.2-ClangBootstrap/XML2-v2.13.2-aarch64-linux-gnu.tar.gz"
